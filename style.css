@@ -52,6 +52,10 @@ body {
   border-radius: 100px;
 }
 
+.principal {
+  display: flex;
+}
+
 .projetos {
   display: flex;
   flex-direction: column;
@@ -97,4 +101,28 @@ body {
   background: #1c1c1c;
   color: #ffffff;
   border: 2px solid #f7f7f7;
+}
+
+.conquistas {
+  flex-direction: column;
+  width: 318px;
+  height: 1480px;
+  left: 998px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  margin-right: 12px;
+  margin-left: 10px;
+  padding: 64px;
+  padding-top: 30px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.conquistas img {
+  max-height: 160px;
+  margin-top: 20px;
+}
+
+.dark .conquistas {
+  color: #1c1c1c;
 }
